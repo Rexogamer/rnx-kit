@@ -470,11 +470,15 @@ async function main({
 
   const ignoredCapabilities = [
     "babel-preset-react-native",
+    "community/cli",
+    "community/cli-android",
+    "community/cli-ios",
     "core",
     "core-android",
     "core-ios",
     "core-macos",
     "core-windows",
+    "core/metro-config",
     "hermes",
     "metro",
     "metro-config",
